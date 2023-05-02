@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Comme', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+  }
+
+  * {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Comme', sans-serif;
+    border: 1px solid white; 
+  }
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 650px;
+    height: 100vh;
+    
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width : 614px;
+    height: 100%;
+}
+.feedHeader{
+    display : flex;
+    padding : 10px 5px;
+    align-items: center;
+    justify-content: row; 
+    border: 1px solid gray;
+}
+.feedHeader img{
+    border-radius: 50%;
+    margin-left : 10px;
+}
+.feedHeader span{
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+.feedImage{
+    display : flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.time{
+    font-size : 15px;
+    color : gray;
+    
+}
